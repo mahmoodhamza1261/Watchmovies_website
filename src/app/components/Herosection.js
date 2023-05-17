@@ -26,7 +26,7 @@ const Herosection = ({title,imageUrl}) => {
 
           </div>
 
-          <div className={heroStyles.hero_image}>
+          <div className={heroStyles.hero_image} >
             <Image src={imageUrl} alt='home page' width={500} height={500} />
 
 

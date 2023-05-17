@@ -10,21 +10,23 @@ export const metadata = {
 
 const Footer = () => {
     return (
-        <>
+        < >
+
+        
 
             <footer className={footerStyles.footer}>
                 <div className={footerStyles.content}>
                     <div className={footerStyles.top}>
                         <div className={footerStyles['logo-details']}>
                             {/*<i className={footerStyles.fab fa-slack]></i>*/}
-                            <span className={footerStyles.logo_name}>Thapa Technical</span>
+                            <span className={footerStyles.logo_name}>Hamza&Talha</span>
                         </div>
                         <div className={footerStyles[`media-icons`]}>
-                            <Link href="#"><i > <FaFacebookF/> </i></Link>
-                            <Link href="#"><i > <FaTwitter/> </i> </Link>
-                            <Link href="https://www.instagram.com/thapatechnical/" target="_blank"><i > <FaInstagram/>  </i></Link>
-                            <Link href="#"><i > <FaLinkedinIn /> </i></Link>
-                            <Link href="#"><i > <FaYoutube />  </i></Link>
+                            <Link href="https://www.facebook.com/talha.mahmood.52?mibextid=ZbWKwL"><i > <FaFacebookF/> </i></Link>
+                            <Link href="https://twitter.com/Hamza_1163"><i > <FaTwitter/> </i> </Link>
+                            <Link href="https://instagram.com/talhamahmood1163?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><i > <FaInstagram/>  </i></Link>
+                            <Link href="https://www.linkedin.com/in/hamza-mahmood-47779b1b1"><i > <FaLinkedinIn /> </i></Link>
+                            <Link href="https://www.youtube.com/@user-rg1ii5lo5f"><i > <FaYoutube />  </i></Link>
                         </div>
                     </div>
                     <div className={footerStyles['link-boxes']}>
@@ -66,7 +68,7 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link href="/>"> Thapa Technical.</Link> All rights reserved </span>
+                            <Link href="/>"> Hamza@Movies.</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
                           <Link href="/">Privacy policy</Link>
                           <Link href="/">Terms & condition</Link>
@@ -74,6 +76,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
+            
 
         </>
     );
