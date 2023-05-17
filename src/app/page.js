@@ -3,7 +3,7 @@ import Herosection from '@/app/components/Herosection'
 export default function Home() {
   return (
     <>
-    <Herosection title={"lets watch Quranlec together"} imageUrl={"/home.svg"} />
+    <Herosection title={"lets watch Movies together"} imageUrl={"/about.svg"} />
     </>
   )
 }
