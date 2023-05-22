@@ -17,7 +17,7 @@ const Herosection = ({title,imageUrl}) => {
           <div className={heroStyles.hero_content}>
             <h1>{title}</h1>
            <p>from award-winning dramas to blockbuster action movies,we appos have got you covered. Browse our selection of the latest and greatest movies, and find your new favourite today</p>
-           <Link href="/Quranlec">
+           <Link href="/movie">
             
            <button className={mulish.className}>
             Explore Movies

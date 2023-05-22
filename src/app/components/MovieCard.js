@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '@/app/styles/common.module.css'
 import Link from 'next/link';
 import Image from 'next/image';
-const QuranlecCard = (curElem) => {
+const MovieCard = (curElem) => {
   const {id,type,title,synopsis}=curElem.jawSummary;
   
   return (
@@ -17,7 +17,7 @@ const QuranlecCard = (curElem) => {
              
             {`${synopsis.substring(0,66)} ...`}
             </p>
-            <Link href={`/Quranlec/${id}`}>
+            <Link href={`/movie/${id}`}>
               <button>
                 Read more
               </button>
@@ -29,4 +29,4 @@ const QuranlecCard = (curElem) => {
   )
 }
 
-export default QuranlecCard
+export default MovieCard

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import QuranlecCard from '@/app/components/QuranlecCard'
+import MovieCard from '@/app/components/MovieCard'
 import styles from '@/app/styles/common.module.css'
 require('dotenv').config();
 const page = async() => {
@@ -30,7 +30,7 @@ console.log(data)
  
     {
       main_data.map((curElem)=>{
-        return <QuranlecCard key={curElem.id} {...curElem}/>
+        return <MovieCard key={curElem.id} {...curElem}/>
       })
     }
       </div>
